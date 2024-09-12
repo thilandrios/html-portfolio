@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.banner {
+    background-color: cornflowerblue;
+    color: cornsilk;
+    height: 10vh;
+    margin: 0px 0px 1px;
+}
+.banner h1 {
+    display: inline;
+    float: right;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+.banner li {
+    display: inline;
+    float: left;
+    padding: 30px 30px 10px;
+}
+.loginform {
+    background-color: burlywood;
+}
+.loginform #fname {
+    border-radius: 20px;
+}
+.loginform #password {
+    border-radius: 20px;
+}
+.searchform {
+    text-align: center;
+
+}
+.searchform #url, #search {
+    border-radius: 20px;
+}
+.colorchanger{
+    text-align: center;
+}
+.dateandtime {
+    display: inline;
+    float: right;
+}

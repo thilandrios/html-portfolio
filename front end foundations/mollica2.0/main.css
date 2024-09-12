@@ -1,0 +1,236 @@
+@media (max-width: 575.98px) {
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+    .description h1 {
+        font-size: 2em;
+    }
+    .description p {
+        font-size: 1.2rem;
+    }
+    .features {
+        margin: 0;
+    }
+}
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+}
+
+
+
+.navbar {
+    background:#469eb4;
+    padding-top: 25px;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+
+    letter-spacing: .04em;
+    font-size: larger;
+    text-shadow: 0 0 10px #000 ;
+
+
+}
+
+.nav-link:hover {
+
+    color: rgb(34, 34, 34);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    
+    
+}
+
+.navbar-collapse {
+    justify-content: center;
+
+}
+.header {
+
+background-size: cover;
+background-position: center;
+position: relative;
+
+}
+
+#blogPost{
+    margin-top: 50px;
+}
+#pagination {
+    margin: 50px;
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+    font-size: 26px;
+
+}
+#kidcareers {
+    background-image: url('kidcareers.jpg');
+    background-position: center;
+    position: relative;
+    background-size: cover;
+}
+#classroomres {
+    background-image: url('underconstruction.jpg');
+    background-position: center;
+    position: relative;
+    background-size: cover;
+}
+#database {
+    background-image: url('underconstruction.jpg');
+    background-position: center;
+    position: relative;
+    background-size: cover;
+}
+#donors {
+    background-image: url('pexels-photo-6646944.jpg');
+    background-position: center;
+    position: relative;
+    background-size: cover;
+}
+#team{
+    background-image: url('pexels-fauxels-3184293.jpg');
+    background-position: center;
+    position: relative;
+    background-size: cover;
+}
+#wallyworld {
+    overflow: hidden;
+}
+.imageright img {
+    max-height: 400px;
+    width: auto;
+}
+.imageleft img {
+    max-height: 400px;
+    width: auto;
+}
+
+.description h1 {
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+}
+.space {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.description p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+.description button {
+    border:1px solid #469eb4;
+    background:#469eb4;
+    border-radius: 50px;
+    color:#fff;
+}
+
+.description button:hover {
+    border:1px solid #fff;
+    background:#fff;
+    color:#000;
+}
+#clicky {
+    text-decoration: none;
+    color: inherit;
+}
+.features {
+    margin: auto;
+    padding: 1em;
+    position: relative;
+    margin-bottom: 150px;
+    margin-top: 150px;
+
+}
+
+
+.feature-title {
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+}
+.features .form-control,
+.features input {
+    border-radius: 0;
+}
+
+.features .btn {
+    background-color: #469eb4;
+    border: 1px solid #469eb4;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.features .btn:hover {
+    background-color: #333;
+    border: 1px solid #333;
+}
+.background {
+    background: #dedec8;
+    padding: 4em 0;
+    
+}
+
+.background img:hover{
+    box-shadow: 0 8px 16px  rgba(64, 224, 208, 0.4);
+}
+
+
+
+.card {
+
+    margin: auto;
+    padding: 2px;
+
+}
+
+
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+    align-items: center;
+}
+
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
